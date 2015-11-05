@@ -44,7 +44,7 @@ p {
     padding: 0px;
     font-family: 'Pontano Sans', sans-serif;
     color:#999999;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     text-align: center;
 
@@ -72,24 +72,32 @@ a {
 ul .thisone {
     display:inline;
     text-align: center;
-    margin: 5.5em;
+    margin-left: 9em;
+    margin-right: 9em;
     list-style: none;
     line-height: normal;
+    width: 100%;
 }
 
 
 ul .pattern {
     display:inline;
-    margin: 4.4em;
+    margin-left: 8em;
+    margin-right: 8em;
     list-style: none;
     line-height: normal;
+    width: 100%;
 }
 
 ul .food {
     display:inline;
-    margin: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
     list-style: none;
     line-height: normal;
+    width: 100%;
+    top: 50%;
+    left: 50%;
 }
 
 /* footer */

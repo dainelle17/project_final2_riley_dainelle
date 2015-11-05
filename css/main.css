@@ -1,0 +1,99 @@
+html {
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color:#98BEAD;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    color:#999999;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+p {
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Pontano Sans', sans-serif;
+    color:#999999;
+    font-size: 1em;
+    text-align: justify;
+    text-align: center;
+
+}
+
+a {
+    color:#98BEAD;;
+}
+
+
+
+/* header */
+
+#header {
+    width: 100%;
+    margin: auto;
+}
+
+#header img {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+ul .thisone {
+    display:inline;
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+    padding-right: 20px;
+}
+
+ul .food {
+    display:inline;
+    margin: .5em;
+    list-style: none;
+    line-height: normal;
+    padding-right: 20px;
+}
+/* colors patterns */
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    margin: auto;
+}
+
+#footer img {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0px;
+}

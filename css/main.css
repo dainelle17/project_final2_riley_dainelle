@@ -75,8 +75,6 @@ a {
 ul .thisone {
     display:inline;
     text-align: center;
-    margin-left: 9em;
-    margin-right: 9em;
     list-style: none;
     line-height: normal;
     width: 100%;
@@ -85,8 +83,7 @@ ul .thisone {
 
 ul .pattern {
     display:inline;
-    margin-left: 8em;
-    margin-right: 8em;
+    text-align: center;
     list-style: none;
     line-height: normal;
     width: 100%;
@@ -94,14 +91,88 @@ ul .pattern {
 
 ul .food {
     display:inline;
-    margin-left: 4em;
-    margin-right: 4em;
     list-style: none;
     line-height: normal;
     width: 100%;
     top: 50%;
     left: 50%;
 }
+
+@media all and (min-width: 500px) {
+    ul .thisone {
+        width: 30%;
+        display: inline;
+        text-align: center;
+    }
+
+     ul .pattern {
+        width: 30%;
+        display: inline;
+        text-align: center;
+    }
+
+      ul .food {
+        width: 30%;
+        display: inline;
+        text-align: center;
+    }
+
+}
+
+@media all and (min-width: 900px) {
+    ul .thisone {
+        width: 50%;
+        display: inline;
+    }
+
+     ul .pattern {
+        width: 50%;
+        display: inline;
+    }
+
+      ul .food {
+        width: 50%;
+        display: inline;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    ul .thisone {
+        width: 40%;
+        display: inline;
+        padding: 2em;
+    }
+
+     ul .pattern {
+        width: 40%;
+        display: inline;
+    }
+
+      ul .food {
+        width: 40%;
+        display: inline;
+    }
+
+}
+
+/* button */
+.button {
+    padding: .5em;
+    margin-top: 3em;
+    text-align: center;
+    background: #98BEAD;
+    color: #FFFFFF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.button:hover {
+    text-decoration: none;
+    background: #757575;
+    color: #fff;
+}
+
 
 /* footer */
 

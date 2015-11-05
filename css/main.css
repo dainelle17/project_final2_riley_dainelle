@@ -34,7 +34,7 @@ h3 {
     font-family: 'Cinzel', serif;
     font-weight: 400;
     color:#999999;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
 
 }
@@ -48,14 +48,7 @@ p {
     text-align: justify;
 }
 
-a {
-    color:#98BEAD;
-    margin: 1em;
-    padding: 0px;
-    font-family: 'Cinzel', serif;
-    font-weight: 400;
 
-}
 
 
 
@@ -158,8 +151,8 @@ ul .food {
 
 /* button */
 .button {
-    padding: .5em;
-    margin-top: 3em;
+    padding: .2em;
+    margin-left: 2.3em;
     text-align: center;
     background: #98BEAD;
     color: #FFFFFF;
@@ -172,7 +165,6 @@ ul .food {
     background: #757575;
     color: #fff;
 }
-
 
 /* footer */
 

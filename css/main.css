@@ -9,6 +9,8 @@ html {
 }
 
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -69,21 +71,26 @@ a {
 
 ul .thisone {
     display:inline;
-    margin: 0;
+    text-align: center;
+    margin: 5.5em;
     list-style: none;
     line-height: normal;
-    padding-right: 20px;
+}
+
+
+ul .pattern {
+    display:inline;
+    margin: 4.4em;
+    list-style: none;
+    line-height: normal;
 }
 
 ul .food {
     display:inline;
-    margin: .5em;
+    margin: 1.5em;
     list-style: none;
     line-height: normal;
-    padding-right: 20px;
 }
-/* colors patterns */
-
 
 /* footer */
 
@@ -96,4 +103,11 @@ ul .food {
     width: 100%;
     margin: auto;
     padding: 0px 0px;
+}
+
+.site-container {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    padding: .5em;
 }

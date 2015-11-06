@@ -53,8 +53,6 @@ a {
 
 }
 
-
-
 /* header */
 
 #header {
@@ -154,7 +152,7 @@ ul .food {
 
 /* button */
 .button {
-    padding: .2em;
+    padding: .5em;
     margin-left: 2.3em;
     text-align: center;
     background: #98BEAD;
@@ -179,7 +177,6 @@ ul .food {
 #footer img {
     width: 100%;
     margin: auto;
-    padding-right: 2em;
 }
 
 .site-container {
